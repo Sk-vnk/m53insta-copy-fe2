@@ -5,7 +5,7 @@ import { signupFetch } from "../../utils/fetch";
 import "./Signup.css"
 
 const Signup = () => {
-    cosnt [username, setUsername] = useState("")
+    const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -28,7 +28,7 @@ const Signup = () => {
                     
                     <input
                         className="signup-input"
-                        placeholders="Username"
+                        placeholder="Username"
                         onChange={(e) => changeHandler(e,setUsername, username)}
                     />
                     
@@ -50,3 +50,5 @@ const Signup = () => {
         </div>
     )
 }
+
+export default Signup;
