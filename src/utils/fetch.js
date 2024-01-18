@@ -11,6 +11,7 @@ export const loginFetch = async (username, password) => {
         }),
     });
     const data = await response.json();
+    console.log(data)
     return data
 };
 
@@ -30,6 +31,6 @@ export const signupFetch = async (username, email, password) => {
     });
     
     const data = await response.json();
-
+    console.log(data);
     return data;
 };

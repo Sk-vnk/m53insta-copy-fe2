@@ -1,9 +1,10 @@
 .logorsign-wrapper{
-    border: 3px red solid;
+    border: 3px rgb(167, 113, 113) solid;
     display: flex;
     flex-direction: row;
     margin: 20px;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: center;
     background-color: bisque;
+    position: fixed;
 }

@@ -15,7 +15,8 @@ const Login = ({ setLoggedIn }) => {
 };
 
             const handleSubmit = async (e) => {
-                e.prevetDefault();
+                e.preventDefault();
+                console.log("hello")
 
             const data = await loginFetch(username, password);
                 console.log(data);
@@ -29,7 +30,7 @@ const Login = ({ setLoggedIn }) => {
             <h3 className="login-title">Log In</h3>
         <input
              className="login-input"
-             placeHolder="Username"
+             placeholder="Username"
              onChange={(e) => changeHandler(e, setUsername, username)}
              />
              <input
