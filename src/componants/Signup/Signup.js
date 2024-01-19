@@ -5,11 +5,12 @@ import { signupFetch } from "../../utils/fetch";
 import "./Signup.css"
 
 const Signup = () => {
+    
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-
+    
     const changeHandler = (e, setter, state) => {
         setter(e.target.value);
     };

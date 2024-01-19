@@ -1,0 +1,20 @@
+.pic-container-wrapper{
+    width: 100%;
+    height: 100%;
+    /* border: solid green 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-container-inner{
+    height: 90%;
+    width: 95%;
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(130, 128, 128);
+}
