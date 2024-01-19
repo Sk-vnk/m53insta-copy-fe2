@@ -10,10 +10,12 @@ const LogOrSign = ({ setLoggedIn }) => {
     return (
         <div className="logorsign-wrapper">
             <div className="logorsign-inner-container">
-                <Signup />
-            </div>
-            <div className="logorsign-box">
-                <Login setLoggedIn={setLoggedIn} />
+                <div className="logorsign-box">
+                    <Signup />
+                </div>
+                <div className="logorsign-box">
+                    <Login setLoggedIn={setLoggedIn} />
+                </div>
             </div>
         </div>
     );
